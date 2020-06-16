@@ -10,9 +10,11 @@ function Contact(){
     <div className="Contact">
         <img className="avatar" src="https://randomuser.me/api/portraits/women/23.jpg" alt="Random Generator " />
         <div>
-        <p className="name">Gisela Dingens</p>
-        <p className="status"> <span className="status-online"></span> 
-        {Status}</p>
+            <p className="name">Gisela Dingens</p>
+            <div className="status"> 
+                <div className="status-online"></div>
+                <p className="status-text">{Status}</p>
+            </div>
         </div>
     </div>
     )
