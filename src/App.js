@@ -3,8 +3,8 @@ import ContactList from './components/ContactList';
 
 function App() {
   return (
-    <div>
-      <ContactList />
+    <div className="App">
+        <ContactList />  
     </div>
   );
 }
