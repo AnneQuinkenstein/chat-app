@@ -1,0 +1,15 @@
+
+
+.App video{
+  position: relative; 
+  height:120%; 
+  width: 120%; 
+}
+
+.divContactList{
+  position: absolute; 
+  text-align: center;
+  top: 10%; 
+  left: 10%; 
+  transform: translate(50%, 40%);
+}
